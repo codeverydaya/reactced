@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import  {Button} from 'antd-mobile';
+import 'antd-mobile/dist/antd-mobile.css'
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button >天天敲代码</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
